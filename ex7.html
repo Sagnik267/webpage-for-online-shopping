@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon cart</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap-grid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .main-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
+        padding: 20px;
+      }
+      .sub-container1 {
+        border: 1px solid #ccc;
+        padding: 15px;
+        text-align: center;
+        background: #f9f9f9;
+        border-radius: 10px;
+      }
+      .sub-container1 img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      .footer-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 30px;
+        background-color: black;
+        color: white;
+      }
+      .footer-container h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .footer-container div {
+        margin-bottom: 6px;
+      }
+      .footer-container .bi {
+        margin-right: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="sub-container1">
+        <h2>Killer jeans</h2>
+        <img src="ex7.6.webp" height="176px" width="250px" />
+        <p>Price: &#8377; 4000</p>
+        <p>Quantity: 10</p>
+        <button>Add to cart</button>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="sub-container1">
+        <h2>JBL headphones</h2>
+        <img src="ex7.4.webp" height="150px" width="200px" />
+        <p>Price: &#8377; 3000</p>
+        <p>Quantity: 41</p>
+        <button>Add to cart</button>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="sub-container1">
+        <h2>Senheiser</h2>
+        <img src="ex7.5.webp" height="200px" width="250px" />
+        <p>Price: &#8377; 35000</p>
+        <p>Quantity: 10</p>
+        <button>Add to cart</button>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="sub-container1">
+        <h2>Beauty Products</h2>
+        <img src="ex7.7.jpg" height="200px" width="250px" />
+        <p>Price: &#8377; 1200</p>
+        <p>Quantity: 14</p>
+        <button>Add to cart</button>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="sub-container1">
+        <h2>Electronics Device</h2>
+        <img src="ex7.3.jpg" height="200px" width="250px" />
+        <p>Price: &#8377; 10000</p>
+        <p>Quantity: 14</p>
+        <button>Add to cart</button>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="sub-container1">
+        <h2>APPLE iPad</h2>
+        <img src="ex7.8.jpg" height="200px" width="250px" />
+        <p>Price: &#8377; 4000</p>
+        <p>Quantity: 2</p>
+        <button>Add to cart</button>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="sub-container1">
+        <h2>Laptop</h2>
+        <img src="ex7.2.jpg" height="200px" width="250px" />
+        <p>Price: &#8377; 89000</p>
+        <p>Quantity: 9</p>
+        <button>Add to cart</button>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="sub-container1">
+        <h2>Phone</h2>
+        <img src="ex7.1.webp" height="200px" width="250px" />
+        <p>Price: &#8377; 50000</p>
+        <p>Quantity: 9</p>
+        <button>Add to cart</button>
+        <button>Buy Now</button>
+      </div>
+    </div>
+    <div class="footer-container">
+      <div class="section1">
+        <h2>Get to know us</h2>
+        <div>About us</div>
+        <div>Amazon careers</div>
+        <div>Amazon science</div>
+        <div>Press releases</div>
+      </div>
+
+      <div class="section2">
+        <h2>Make money with us</h2>
+        <div>Sell products on Amazon</div>
+        <div>Sell apps on Amazon</div>
+        <div>Become an affiliate</div>
+        <div>Advertise your products</div>
+        <div>Self-publish with us</div>
+        <div>Host an Amazon hub</div>
+      </div>
+
+      <div class="section3">
+        <h2>Connect with us</h2>
+        <div><i class="bi bi-facebook"></i> Facebook</div>
+        <div><i class="bi bi-twitter-x"></i> Twitter</div>
+        <div><i class="bi bi-instagram"></i> Instagram</div>
+      </div>
+
+      <div class="section4">
+        <h2>Let us help you</h2>
+        <div>Your account</div>
+        <div>Purchase</div>
+        <div>Shipping rates & policies</div>
+        <div>Returns & replacements</div>
+        <div>Help</div>
+      </div>
+    </div>
+  </body>
+</html>
